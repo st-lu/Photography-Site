@@ -1,0 +1,61 @@
+h1, h2, h3, nav, aside, p, footer{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#f0f0f0;
+}
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    position: fixed;
+    top: 100px;
+    left: 150px;
+}
+
+p{
+    position: fixed;
+    top:160px;
+    left:200px;
+    font-size:12px;
+}
+
+figure{
+    position: relative;
+    top:150px;
+    left:600px;
+    width:200px;
+}
+
+.container {
+position: relative;
+width:150px;
+left:640px;
+top:100px;
+}
+
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s linear;
+background-color: black;
+}
+
+.container:hover .overlay {
+opacity: 50%;
+}
+
+.text {
+color: white;
+font-size: 15px;
+position: absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+}
