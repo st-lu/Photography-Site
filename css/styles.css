@@ -14,6 +14,7 @@ h1{
     position: fixed;
     left: 100px;
     top: 85px;
+    float:left;
 }
 
 h2{
@@ -24,11 +25,13 @@ nav{
     position: fixed;
     top: 350px;
     right: 400px;
+    float:right;
 }
 
 figure.pozaa1{
     position: fixed;
     z-index: -1;
+    float:left;
 }
 
 img.poza1{
@@ -39,6 +42,7 @@ figure.pozaa2{
     position: fixed;
     right: 10px;
     z-index: -1;
+    float:right;
 }
 
 img.poza2{

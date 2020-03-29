@@ -109,3 +109,13 @@ figure{
     z-index:-1;
     left:75px;
 }
+
+p.back{
+    position: fixed;
+    left: 150px;
+    top:400px;
+}
+
+h2{
+    font-size: 1.3rem;
+}
