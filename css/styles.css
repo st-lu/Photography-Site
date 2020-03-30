@@ -169,7 +169,7 @@ a.rd{
 
     h1{
         font-size: 1.2rem;
-        position: fixed;
+        position: absolute;
     }
 
     aside.caption{
@@ -177,7 +177,7 @@ a.rd{
     }
 
     nav{
-        position:fixed;
+        position: absolute;;
         top:120vw;
         right:0;
         left:20vw;
@@ -194,4 +194,5 @@ a.rd{
         display:block;
         left:20vw;
     }
+
 }
