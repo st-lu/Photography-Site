@@ -11,10 +11,11 @@ body{
 a{
     color:#f0f0f0;
     text-decoration: none;
+    transition: color 0.5s linear;
 }
 
 a:hover{
-    color:red;
+    color: red;
 }
 
 h1{
@@ -118,4 +119,83 @@ p.back{
 
 h2{
     font-size: 1.3rem;
+}
+
+@media screen and (max-width:1050px) and (min-width:650px){
+    img.fundal{
+        position: absolute;
+        left:-120px;
+        top:50px;
+    }
+
+    section#contact, section#follow, section#introduction{
+        width:500px;
+        font-size:20px;
+    }
+
+    section#follow{
+        top: 650px;
+    }
+
+    section#contact{
+        top: 900px;
+    }
+}
+
+@media screen and (max-width:650px){
+    img.fundal{
+        position: fixed;
+        top:200px;
+        left: 0px;
+    }
+    h1{
+        position: relative;
+        top:20px;
+        left:70px;
+        font-size: 60px;
+    }
+    p.better{
+        position: relative;
+        font-size: 20px;
+        top:-200px;
+    }
+
+    nav{
+        position: relative;
+        font-size:25px;
+        left: 400px;
+        top:100px;
+    }
+
+    p.back{
+        position: relative;
+        top:-1125px;
+        left:395px;
+        font-size:22px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    section#introduction{
+        position: relative;
+        top:150px;
+        left:80px;
+        font-size: 23px;
+    }
+
+    section#follow{
+        position: relative;
+        top:200px;
+        left:80px;
+        font-size: 23px;
+    }
+
+    section#contact{
+        position: relative;
+        top:250px;
+        left:80px;
+        font-size:23px;
+        width: 600px;
+    }
 }

@@ -11,10 +11,11 @@ body{
 a{
     color:#f0f0f0;
     text-decoration: none;
+    transition: color 0.5s linear;
 }
 
 a:hover{
-    color:red;
+    color: red;
 }
 
 h1{
@@ -84,14 +85,14 @@ vertical-align: middle;
 width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .column {
         flex: 100%;
         max-width: 100%;

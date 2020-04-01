@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 nav{
@@ -64,7 +64,7 @@ footer{
 
 a.top{
     position:relative;
-    left:7vw;
+    left:100px;
 }
 
 a{
@@ -76,8 +76,9 @@ a:link{
     color:#f0f0f0;
 }
 
-a:hover{
-    color: black;
+
+a.nd{
+    width: 20vw;
 }
 
 ul{
@@ -106,41 +107,65 @@ ul li:hover ul{
     left:7vw;
 }
 
-a.nd, a.rd{
-    transition: background 1s linear, color 1s linear;
+a{
+    transition: color 0.5s linear;
 }
 
-a.nd:hover, a.rd:hover{
-    background: black;
+a:hover{
     color: red;
 }
 
-a.st{
-    width: 60px;
-    transition: background 1s linear, color 1s linear;
-}
-
-a.st:hover{
-    background: black;
-    color: red;
-}
-
-a.rd{
-    width: 7vw;
-}
-
-@media only screen and (max-width: 450px){
+@media only screen and (max-width:1050px) and (min-width:650px){
     figure.pozaa2{
-        top: 93vw;
-        left: 0vw;
+        top: 65vw;
+        right: 5vw;
+    }
+
+    figure.pozaa1{
+        top: 10vw;
+        left: 5vw;
+    }
+
+    img.poza1, img.poza2{
+        width:50vw;
+        height:50vw;
+    }
+
+    h1{
+        top: 20vw;
+        left: 15vw;
+        font-size: 1.5rem;
+    }
+
+    nav{
+        top:90vw;
+        right: 40vw;
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    aside.caption{
+        left:20vw;
+        opacity:0.7;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    figure.pozaa2{
+        top: 108vw;
+        left: 20vw;
         position: absolute;
         margin-right: 0;
         width: 80vw;
     }
     figure.pozaa1{
         position: absolute;
-        left:0;
-        top: 0vw;
+        left:20vw;
+        top: 10vw;
         margin-right:0;
     }
     img.poza1{
@@ -151,37 +176,38 @@ a.rd{
         height: 75vw;
     }
 
-    nav{
-        top: 45vw;
-        right: 35vw;
-    }
-    h1{
-        top: 10vw;
-        left: 20vw;
-    }
     a.top{
-        left: 23vw;
+        left:0;
     }
     footer{
-        top: 180vw;
-        left: 15vw;
+        top: 220vw;
+        left: 40vw;
+        text-align: center;
     }
 
     h1{
-        font-size: 1.2rem;
+        top: 25vw;
+        left: 35vw;
+        font-size: 1rem;
         position: absolute;
     }
 
+    h2{
+        font-size: 0.9rem;
+    }
+
     aside.caption{
-        left:30vw;
+        left:28vw;
+        font-size: 0.8rem;
     }
 
     nav{
-        position: absolute;;
-        top:120vw;
+        position: absolute;
+        top:145vw;
         right:0;
-        left:20vw;
+        left:40vw;
         width: 30vw;
+        font-size:0.8rem;
     }
 
     ul{
