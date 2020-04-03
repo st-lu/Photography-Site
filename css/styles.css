@@ -35,7 +35,7 @@ figure.pozaa1{
     float:left;
 }
 
-img.poza1{
+img.poza1, img.poza2{
     width:41vw;
 }
 
@@ -44,11 +44,6 @@ figure.pozaa2{
     right: 2vw;
     z-index: -1;
     float:right;
-}
-
-img.poza2{
-    width:41vw;
-    height:44vw;
 }
 
 aside.caption{
