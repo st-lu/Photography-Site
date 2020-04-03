@@ -60,7 +60,7 @@ section#colder{
 p.back{
     position: fixed;
     left: 150px;
-    top:400px;
+    top:450px;
 }
 
 h2{
@@ -74,27 +74,36 @@ h2{
 }
 
 .column {
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
 .column img {
-margin-top: 8px;
-vertical-align: middle;
-width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 @media screen and (max-width: 1050px) {
     .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .column {
         flex: 100%;
         max-width: 100%;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    li, p.back{
+        font-size: 25px;
+    }
+
+    p.back{
+        top: 550px;
     }
 }

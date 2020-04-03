@@ -168,10 +168,11 @@ h2{
     }
 
     p.back{
-        position: relative;
-        top:-1125px;
+        position: absolute;
+        top:405px;
         left:395px;
         font-size:22px;
+        width:100%;
     }
 
     h2{
