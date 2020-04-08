@@ -1,2 +1,6 @@
-# photography-site
- testing github pages
+# Photography Site
+Project for the Web Development course
+
+Programming languages used in this repo (so far):
+- HTML
+- CSS
