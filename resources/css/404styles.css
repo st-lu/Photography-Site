@@ -1,0 +1,16 @@
+.notfound{
+    position: fixed;
+    top: 12vw;
+    left: 25vw;
+}
+
+h1{
+    position: fixed;
+    left: 20vw;
+}
+
+figure{
+    position: fixed;
+    left: 5vw;
+    z-index: -1;
+}

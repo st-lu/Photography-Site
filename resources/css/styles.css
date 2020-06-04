@@ -1,0 +1,224 @@
+h1, h2, h3, nav, aside, p, footer{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#f0f0f0;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+h1{
+    font-size: 1.8rem;
+    position: fixed;
+    left: 9vw;
+    top: 7vw;
+    float:left;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+nav{
+    position: fixed;
+    top: 25vw;
+    right: 29vw;
+    float:right;
+    z-index: 10;
+}
+
+figure.pozaa1{
+    position: fixed;
+    z-index: -1;
+    float:left;
+}
+
+img.poza1, img.poza2{
+    width:41vw;
+}
+
+figure.pozaa2{
+    position: fixed;
+    right: 2vw;
+    z-index: -1;
+    float:right;
+}
+
+aside.caption{
+    position: relative;
+    left: 15vw;
+}
+aside.caption2{
+    position: relative;
+    left: 15vw;
+    top:16.8vw;
+}
+
+footer{
+    position: absolute;
+    bottom:-10vw;
+    left:37vw;
+}
+
+a.top{
+    position:relative;
+    left:100px;
+}
+
+a{
+    color:#f0f0f0;
+    text-decoration:none;
+}
+
+a:link{
+    color:#f0f0f0;
+}
+
+
+a.nd{
+    width: 20vw;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    width:7vw;
+}
+
+ul li{
+    display:block;
+    position:relative;
+}
+
+ul li a{
+    display:block;
+}
+
+ul ul {
+    position:absolute;
+    top: 0;
+    display:none;
+}
+
+ul li:hover ul{
+    display:block;
+    left:7vw;
+}
+
+a{
+    transition: color 0.5s linear;
+}
+
+a:hover{
+    color: red;
+}
+
+@media only screen and (max-width:1050px) and (min-width:650px){
+    figure.pozaa2{
+        top: 65vw;
+        right: 5vw;
+    }
+
+    figure.pozaa1{
+        top: 10vw;
+        left: 5vw;
+    }
+
+    img.poza1, img.poza2{
+        width:50vw;
+        height:50vw;
+    }
+
+    h1{
+        top: 20vw;
+        left: 15vw;
+        font-size: 1.5rem;
+    }
+
+    nav{
+        top:90vw;
+        right: 40vw;
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    aside.caption{
+        left:20vw;
+        opacity:0.7;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    figure.pozaa2{
+        top: 108vw;
+        left: 20vw;
+        position: absolute;
+        margin-right: 0;
+        width: 80vw;
+    }
+    figure.pozaa1{
+        position: absolute;
+        left:20vw;
+        top: 10vw;
+        margin-right:0;
+    }
+    img.poza1{
+        width: 80vw;
+    }
+    img.poza2{
+        width: 80vw;
+        height: 75vw;
+    }
+
+    a.top{
+        left:0;
+    }
+    footer{
+        top: 220vw;
+        left: 40vw;
+        text-align: center;
+    }
+
+    h1{
+        top: 25vw;
+        left: 35vw;
+        font-size: 1rem;
+        position: absolute;
+    }
+
+    h2{
+        font-size: 0.9rem;
+    }
+
+    aside.caption{
+        left:28vw;
+        font-size: 0.8rem;
+    }
+
+    nav{
+        position: absolute;
+        top:145vw;
+        right:0;
+        left:40vw;
+        width: 30vw;
+        font-size:0.8rem;
+    }
+
+    ul{
+        margin:0;
+        padding:0;
+        width:20vw;
+    }
+
+    ul li:hover ul{
+        display:block;
+        left:20vw;
+    }
+
+}

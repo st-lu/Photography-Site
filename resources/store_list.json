@@ -1,0 +1,62 @@
+[
+    {
+        "url": "pictures/store1.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url": "pictures/store2.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url": "pictures/store3.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url": "pictures/store4.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store5.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store6.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store7.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store8.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store9.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store10.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store11.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    },
+    {
+        "url" : "pictures/store12.jpg",
+        "price": "20",
+        "discounted_price": "10"
+    }
+]

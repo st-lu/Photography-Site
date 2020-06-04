@@ -1,0 +1,37 @@
+{
+  "name": "photography",
+  "version": "1.0.0",
+  "description": "personal photography site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-lu/photography-site.git"
+  },
+  "keywords": [
+    "photography",
+    "colder",
+    "after",
+    "hours",
+    "sculpture",
+    "luana",
+    "strimbeanu",
+    "store",
+    "about",
+    "contact"
+  ],
+  "author": "luana strimbeanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st-lu/photography-site/issues"
+  },
+  "homepage": "https://github.com/st-lu/photography-site#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2"
+  }
+}

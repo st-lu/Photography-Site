@@ -1,0 +1,158 @@
+h1, h2, h3, nav, aside, p, footer{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#f0f0f0;
+}
+
+
+body{
+    background-color: black;
+}
+
+a{
+    color:#f0f0f0;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+a:hover{
+    color: red;
+}
+
+nav{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 14px;
+}
+
+img{
+    width:250px;
+}
+
+h1{
+    position: absolute;
+    left:40%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    width:7vw;
+}
+
+ul li{
+    display:block;
+    position:relative;
+}
+
+ul li a{
+    display:block;
+}
+
+ul ul {
+    position:absolute;
+    top: 0;
+    display:none;
+}
+
+ul li:hover ul{
+    display:block;
+    left:7vw;
+}
+
+p{
+    position: absolute;
+    top:10%;
+    left:50%;
+    font-size:12px;
+}
+
+p.back{
+    position: absolute;
+    left: 49%;
+    top:28%;
+    right:auto;
+}
+
+
+.container {
+    position: relative;
+    width:25%;
+    /* top:15vw;
+    left:11vw;*/
+    border:0;
+}
+
+.container img {
+    width: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s linear;
+    background-color: black;
+}
+
+.container:hover .overlay {
+    opacity: 50%;
+}
+
+.text {
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.row {
+    top:200px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 20%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+main{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    align-self: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .column {
+        flex: 33%;
+        max-width: 100%;
+    }
+
+    main{
+        align-content: center;
+    }
+}
+
+    @media screen and (max-width: 650px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+}

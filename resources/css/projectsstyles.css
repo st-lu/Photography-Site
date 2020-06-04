@@ -1,0 +1,131 @@
+h1, h2, h3, nav, aside, p, footer{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#f0f0f0;
+}
+
+
+body{
+    background-color: black;
+}
+
+a{
+    color:#f0f0f0;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+a:hover{
+    color: red;
+}
+
+h1{
+    position: fixed;
+    top: 100px;
+    left: 150px;
+}
+
+nav{
+    position: fixed;
+    top: 300px;
+    left: 150px;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    width:7vw;
+}
+
+ul li{
+    display:block;
+    position:relative;
+}
+
+ul li a{
+    display:block;
+}
+
+ul ul {
+    position:absolute;
+    top: 0;
+    display:none;
+}
+
+ul li:hover ul{
+    display:block;
+    left:7vw;
+}
+
+section#sculpture{
+    position:relative;
+    left:500px;
+    width:50%;
+    margin: 0px;
+}
+
+section#afterhours{
+    position: relative;
+    top:100px;
+    left:500px;
+    width:50%;
+    margin: 0px;
+}
+
+section#colder{
+    position: relative;
+    top: 150px;
+    left:500px;
+    width:50%;
+    margin: 0px;
+}
+
+p.back{
+    position: fixed;
+    left: 130px;
+    top:420px;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    li, p.back{
+        font-size: 25px;
+    }
+
+    p.back{
+        top: 550px;
+    }
+}
