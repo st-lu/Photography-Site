@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1{
+    position:fixed;
+    top: 20%;
+    left:45%
+}
+
+div.afisaj{
+    position: fixed;
+    top: 35%;
+    left: 40%;
+}
+
+input{
+    background-color:black;
+    border-color:gray;
+    border-radius:5px;
+    color:white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+input[type=submit]{
+    background-color:green;
+    position: relative;
+    left: 28%;
+}
+
+/* input[type=submit]:hover{
+    color: red;
+} */
+
+.fundal{
+    position: fixed;
+    left:10%;
+    top:3%;
+    z-index: -1;
+}
+
+#caps{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}

@@ -12,7 +12,7 @@
 	<meta name="description" content="Luana Strimbeanu Photography - Store">
 </head>
 
-<body class="contents">
+<body>
 	<% if(!locals.username) { %>
 	<div>
 		<p class="login"> login: </p>
@@ -31,31 +31,36 @@
 
 
 	<%- include('../fragments/header.ejs') %>
-	<script src="js/gallery.js"></script>
-
+	<script src="js/administrator.js"></script>
+	<form method="post" action="/adaugareProdus">
+		<label>url</label><br>
+		<input type="text" name="url" placeholder="pictures/store1.jpg"><br>
+		<label>price</label><br>
+		<input type="text" name="price" placeholder="200"><br>
+		<label>discounted_price</label><br>
+		<input type="text" name="discounted_price" placeholder="100"><br>
+		<input type="radio" id="sea" name="tag" value="sea">
+		<label for="sea" style="color:white">Sea</label>
+		<input type="radio" id="mountain" name="tag" value="mountain">
+		<label for="mountain" style="color:white">Mountain</label>
+		<input type="radio" id="nonee" name="tag" value="none">
+		<label for="nonee" style="color:white">None</label><br>
+		<input type="submit" value="Incarca">
+	</form>
 	<div>
-		<h1> Store </h1>
+		<h1> Pagina administrare </h1>
 	</div>
-
-	<div id="buttons">
-		<button onclick="get_data('asc')">Price: low to high</button>
-		<button onclick="get_data('desc')">Price: high to low</button>
-		<button onclick="get_data('mountain')">Mountain pics</button>
-		<button onclick="get_data('sea')">Sea pics</button>
-		<button onclick="get_data('calcmax')">Max Price</button>
-		<p id="pretmax"></p>
-		<button onclick="get_data('calcmin')">Min Price</button>
-		<p id="pretmin"></p>
-		<button onclick="get_data('reset')">Reset filters</button>
-	</div>
-
 	<main>
-
 	</main>
 
-
-
 	<%- include('../fragments/footer.ejs') %>
+
+	<script>
+		function deleteElement(ind) {
+			document.getElementsByClassName("imgcontainer")[ind].style.display = 'none';
+
+		}
+	</script>
 
 </body>
 

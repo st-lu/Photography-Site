@@ -81,7 +81,7 @@ section#colder{
 
 p.back{
     position: fixed;
-    left: 130px;
+    left: 170px;
     top:420px;
 }
 
@@ -105,6 +105,31 @@ h2{
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+
+p#timespent{
+    position: fixed;
+    top: 470px;
+    left: 150px;
+}
+
+.curent{
+    color: red !important;
+}
+
+p#wordcount{
+    position: fixed;
+    top: 500px;
+    left: 150px;
+}
+
+a.logout{
+    font-size: 13px;
+    position: relative;
+}
+p.userlogged{
+    position: static;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 1050px) {

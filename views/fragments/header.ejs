@@ -1,4 +1,11 @@
 <header>
+    <% if(locals.username) { %>
+        <p class="userlogged">Welcome, <%= locals.username %>!</p>
+	    <a class="logout" href="/logout">Logout</a>
+    <% } %>
+    <% if(locals.rol == "admin") { %>
+        <a class="logout" href="/administrator"> | Admin</a>
+    <% } %>
     <nav>
         <h2> Navigation </h2> 
         <ul>

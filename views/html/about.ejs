@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title> About </title>
-		<link rel="stylesheet" type="text/css" href="../css/aboutstyles.css">
-		<link rel="shortcut icon" type="image/x-icon" href="../pictures/logov2.jpg">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="UTF-8">
-		<meta name="author" content="Luana Strimbeanu">
-		<meta name="keywords" content="photography, luana, strimbeanu, about, social media, contact">
-		<meta name="description" content="Luana Strimbeanu Photography - About - Introduction, Follow, Contact">
-	</head>
-	
-	<body>
-		
-		<%- include('../fragments/header.ejs') %>
 
-		<main>
-			<h1> About </h1>
-			<figure>
-				<img class="fundal" alt="broken image" src="pictures/about.jpg">
-			</figure>
-			<p class="better"> Get to know me better! </p>
-			
-			<section id="introduction">
-				<h2> Introducing myself </h2>
-				<hr>
-				<p> Hi there! My name is Luana, though I'm pretty sure you couldn't have missed it. <s>I'm 19</s> I'll be 20 by the time I finish this <i> Tehnici Web </i> project! I'm from Craiova, Romania; currently living in Bucharest, Romania.</p>
-				<p> Currently, I am majoring in Computer Science at the Univeristy of Bucharest. </p>
-				<p> However, whenever I'm not coding like I'm the main character of <i> Mr. Robot </i>, I always seem to find myself with a camera in my hands, capturing the fugitive moments around me.
-			</section>
-			
-			<section id="follow">
-				<h2> Follow me! </h2>
-				<hr>
-				<p> Here's where to find me on Social Media: </p>
-				<p> <img class="ig" alt="ig" src="../pictures/iglogo.png"> <a href="https://www.instagram.com/st.lua/"> Instagram </a></p>
-				<p> <img class="vsco" alt="vsco" src="../pictures/vscologo.png"><a href="https://vsco.co/stavroghin/gallery"> &nbsp; VSCO </a></p>
-			</section>
-			
-			<section id="contact">
-				<h2> Contact </h2>
-				<hr>
-				<p> How to get in touch with me:</p>
-				<p> <img class="mail" alt="mail" src="../pictures/mail.png"> <span class="maillink"> Mail: <a href="mailto:luanadiana00@yahoo.com"> luanadiana00@yahoo.com </a> <strong> &nbsp;&nbsp;&nbsp; *Recommended for business inquieries </strong> </span> </p>
-				<p> <img class="phone" alt="phone" src="../pictures/phone.png"> <span class="phonee">Phone: +40762615651 <strong> &nbsp;&nbsp;&nbsp; *Romanian clients only </strong> </span></p>
-				<p class="dm"> You can also hit me up on Instagram if that's more comfortable with you! My DMs are always open.</p>
-			</section>
-		</main>
-		<footer>
-			<p class="back"><a href="/"> &larr; home </a></p>
-		</footer>
-	</body>
+<head>
+	<title> About </title>
+	<link rel="stylesheet" type="text/css" href="../css/aboutstyles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../pictures/logov2.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <script src="js/wordcount.js"></script> -->
+	<script src="js/navigationmarkup.js"></script>
+	<script src="js/ravase.js"></script>
+	<meta charset="UTF-8">
+	<meta name="author" content="Luana Strimbeanu">
+	<meta name="keywords" content="photography, luana, strimbeanu, about, social media, contact">
+	<meta name="description" content="Luana Strimbeanu Photography - About - Introduction, Follow, Contact">
+</head>
+
+<body class="contents">
+
+	<%- include('../fragments/header.ejs') %>
+
+	<main>
+		<h1> About </h1>
+		<figure>
+			<img class="fundal" alt="broken image" src="pictures/about.jpg">
+		</figure>
+		<p class="better"> Get to know me better! </p>
+
+		<section id="introduction">
+			<h2> Introducing myself </h2>
+			<hr>
+			<p> Hi there! My name is Luana, though I'm pretty sure you couldn't have missed it. <s>I'm 19</s> I'll be 20
+				by the time I finish this <i> Tehnici Web </i> project! I'm from Craiova, Romania; currently living in
+				Bucharest, Romania.</p>
+			<p> Currently, I am majoring in Computer Science at the Univeristy of Bucharest. </p>
+			<p> However, whenever I'm not coding like I'm the main character of <i> Mr. Robot </i>, I always seem to
+				find myself with a camera in my hands, capturing the fugitive moments around me. Oh, and I really like
+				dad jokes. In fact, here's a random dad joke for you:
+			</p>
+		</section>
+
+		<section id="follow">
+			<h2> Follow me! </h2>
+			<hr>
+			<p> Here's where to find me on Social Media: </p>
+			<p> <img class="ig" alt="ig" src="../pictures/iglogo.png"> <a href="https://www.instagram.com/st.lua/">
+					Instagram </a></p>
+			<p> <img class="vsco" alt="vsco" src="../pictures/vscologo.png"><a
+					href="https://vsco.co/stavroghin/gallery"> &nbsp; VSCO </a></p>
+		</section>
+
+		<section id="contact">
+			<h2> Contact </h2>
+			<hr>
+			<p> How to get in touch with me:</p>
+			<p> <img class="mail" alt="mail" src="../pictures/mail.png"> <span class="maillink"> Mail: <a
+						href="mailto:luanadiana00@yahoo.com"> luanadiana00@yahoo.com </a> <strong> &nbsp;&nbsp;&nbsp;
+						*Recommended for business inquieries </strong> </span> </p>
+			<p> <img class="phone" alt="phone" src="../pictures/phone.png"> <span class="phonee">Phone: +40762615651
+					<strong> &nbsp;&nbsp;&nbsp; *Romanian clients only </strong> </span></p>
+			<p class="dm"> You can also hit me up on Instagram if that's more comfortable with you! My DMs are always
+				open.</p>
+		</section>
+	</main>
+	<%- include('../fragments/footer.ejs') %>
+</body>
+
 </html>

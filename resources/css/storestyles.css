@@ -21,7 +21,7 @@ a:hover{
 nav{
     position: absolute;
     top: 10%;
-    left: 50%;
+    left: 75%;
     font-size: 14px;
 }
 
@@ -31,7 +31,7 @@ img{
 
 h1{
     position: absolute;
-    left:40%;
+    left:20%;
 }
 
 ul{
@@ -69,7 +69,7 @@ p{
 
 p.back{
     position: absolute;
-    left: 49%;
+    left: 80%;
     top:28%;
     right:auto;
 }
@@ -136,6 +136,99 @@ main{
     margin-left:auto;
     margin-right:auto;
     align-self: center;
+}
+
+p.login{
+    left:2%;
+    top: 0;
+}
+
+p.register{
+    left:2%;
+    top: 15px;
+}
+
+input[type=text], input[type=password] {
+  border-radius: 5px;
+  background-color:black;
+  border-color: gray;
+  color:white;
+  font-size: 11px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right:0;
+}
+
+input[type=submit]{
+    margin-left:15px;
+    background-color: black;
+    color:white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-radius:5px;
+    border-color:gray;
+    padding: 0px 2px 0px 2px;
+    transition: color 0.5s linear;
+}
+
+input[type=submit]:hover{
+    color: red;
+}
+
+.curent{
+    color: red !important;
+}
+
+p#timespent{
+    position: absolute;
+    left: 73%;
+    top:31%;
+    right:auto;
+}
+
+p#wordcount{
+    position: absolute;
+    left: 73%;
+    top:34%;
+    right:auto;
+}
+
+div#buttons{
+    position: absolute;
+    top: 30%;
+    left: 14%
+}
+
+p.pmax{
+    position: fixed;
+    left: 49%;
+    top: 32%;
+}
+
+p.pmin{
+    position: fixed;
+    left: 55.5%;
+    top: 32%;
+}
+a.logout{
+    font-size: 13px;
+    position: relative;
+}
+p.userlogged{
+    position: static;
+
+}
+
+.none{
+    display: none;
+}
+
+button{
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+    border-color:gray;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 @media screen and (max-width: 1050px) {

@@ -131,12 +131,44 @@ figure{
 
 p.back{
     position: fixed;
-    left: 130px;
+    left: 180px;
     top:420px;
 }
 
 h2{
     font-size: 1.3rem;
+}
+
+.curent{
+    color: red !important;
+}
+
+p.dadjoke{
+    position: absolute;
+    left: 500px;
+    top: 525px;
+}
+
+p#timespent{
+    position: fixed;
+    left: 150px;
+    top:460px; 
+}
+
+p#wordcount{
+    position: fixed;
+    width:100%;
+    left: 150px;
+    top:490px;
+}
+
+a.logout{
+    font-size: 13px;
+    position: relative;
+}
+p.userlogged{
+    position: static;
+    font-size: 13px;
 }
 
 @media screen and (max-width:1050px) and (min-width:650px){

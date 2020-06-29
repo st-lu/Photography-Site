@@ -1,44 +1,57 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<title> St. Lu </title>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="shortcut icon" type="image/x-icon" href="pictures/logov2.jpg">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Luana Strimbeanu">
+<html lang="en">
 
-		<meta name="keywords" content="photography, luana, strimbeanu">
-		<meta name="description" content="Luana Strimbeanu Photography - The official site. Portfolio. Store">
-		
-	</head>
-	
-	<body>
-	
-		<%- include('../fragments/header.ejs') %>
+<head>
+	<title> St. Lu </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="pictures/logov2.jpg">
+	<meta charset="UTF-8">
+	<script src="js/userage.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Luana Strimbeanu">
+	<meta name="keywords" content="photography, luana, strimbeanu">
+	<meta name="description" content="Luana Strimbeanu Photography - The official site. Portfolio. Store">
+	<script src="js/prompt.js"></script>
+	<script src="js/timespent.js"></script>
+	<script src="js/cuvintetreptat.js"></script>
+	<script src="JavaScript/varstaUtilizator.js"></script>
+</head>
 
-		<main>
-			<h1> Luana Strimbeanu <br> Photography <br></h1>
-			<figure class="pozaa1">
-				<img class="poza1" alt="should've been a pic here" title="gloomy Fagaras" src="pictures/40526100_1506899196110620_7635940917571379091_n.jpg">
-				<figcaption>
-					<aside class="caption"> Colder - 2018 </aside>
-				</figcaption>
-			</figure>
+<body class="contents">
 
-			<figure class="pozaa2">
-				<img class="poza2" alt="should've been a pic here" title="gloomy Fagaras" src="pictures/40543138_160792181471538_337729597949722010_n.jpg">
-				<figcaption>
-					<aside class="caption2"> Colder - 2018 </aside>
-				</figcaption>
-			</figure>
-			
-			
-		</main>
-		<%- include('../fragments/index_footer.ejs') %>
-		
+	<%- include('../fragments/header.ejs') %>
 
-	</body>
+	<main>
+		<h1> Luana Strimbeanu <br> Photography <br></h1>
+		<p id="hello"></p>
+		<p id="enjoy"></p>
+		<div id="agecont">
+			<p>Enter date of birth in dd#mm#yyyy format:</p>
+			<input type="text" id="age">
+			<button type="button" id="submitage" onclick="calculateage()">Calculate my age</button>
+			<p id="showage" style="color:white;"></p>
+		</div>
+		<figure class="pozaa1">
+			<img class="poza1" alt="should've been a pic here" title="gloomy Fagaras"
+				src="pictures/40526100_1506899196110620_7635940917571379091_n.jpg">
+			<figcaption>
+				<aside class="caption"> Colder - 2018 </aside>
+			</figcaption>
+		</figure>
+
+		<figure class="pozaa2">
+			<img class="poza2" alt="should've been a pic here" title="gloomy Fagaras"
+				src="pictures/40543138_160792181471538_337729597949722010_n.jpg">
+			<figcaption>
+				<aside class="caption2"> Colder - 2018 </aside>
+			</figcaption>
+		</figure>
+
+
+	</main>
+	<%- include('../fragments/index_footer.ejs') %>
+
+</body>
 
 
 </html>

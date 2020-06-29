@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Register </title>
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/logov2.jpg">
+    <link rel="stylesheet" type="text/css" href="css/registerstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Luana Strimbeanu">
+    <meta name="keywords" content="photography, luana, strimbeanu, store">
+    <meta name="description" content="Luana Strimbeanu Photography - Store">
+    <script src="js/onkey.js"></script>
+</head>
+
+<body class="container">
+
+
+    <!-- <%- include("../fragments/header") %> -->
+
+    <main>
+        <h1>Register</h1>
+        <img class="fundal" src="pictures/about.jpg">
+        <div class="afisaj">
+            <% if(!locals.rsstatus) { %>
+            <!-- verific daca status e definit-->
+            <form method="post" action="/inreg" class="date">
+                <p>
+                    <label>
+                        Username: <input type="text" name="username" placeholder="username">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Name: <input type="text" name="nume" placeholder="John Doe">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Password: <input type="password" name="parola" placeholder="password" onkeypress="mesaj()">
+                    </label>
+                    <p id="caps"></p>
+                </p>
+                <p>
+                    <label>
+                        Confirm password: <input type="password" name="rparola" placeholder="confirm password">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email: <input type="text" name="email" placeholder="johndoe@example.com" size="50">
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+            <% } else if(rsstatus=="ok"){ %>
+            <p>Date introduse</p>
+            <% } else {%>
+            <p>Eroare</p>
+            <% } %>
+        </div>
+    </main>
+
+</body>
+
+</html>

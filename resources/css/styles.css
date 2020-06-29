@@ -13,7 +13,7 @@ h1{
     font-size: 1.8rem;
     position: fixed;
     left: 9vw;
-    top: 7vw;
+    top: 10vw;
     float:left;
 }
 
@@ -114,6 +114,43 @@ a{
 a:hover{
     color: red;
 }
+
+p#hello, p#enjoy{
+    position: absolute;
+    top:5px;
+    right: 70px;
+}
+p#enjoy{
+    top:35px;
+}
+p#showage{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+
+p#timespent{
+    position: relative;
+    left: 35px;
+
+}
+.curent{
+    color: red !important;
+}
+
+a.logout{
+    font-size: 13px;
+    position: fixed;
+    left: 20%;
+    top: 50%;
+}
+p.userlogged{
+    position: fixed;
+    font-size: 13px;
+    left: 17.5%;
+    top: 45%;
+}
+
 
 @media only screen and (max-width:1050px) and (min-width:650px){
     figure.pozaa2{
